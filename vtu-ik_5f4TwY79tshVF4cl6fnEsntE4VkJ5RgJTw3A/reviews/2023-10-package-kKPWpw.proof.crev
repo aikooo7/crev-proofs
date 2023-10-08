@@ -22,3 +22,29 @@ comment: |-
 aymjA9ibrfNXpfcbw1lzvQPV5E6TmPXDdELb9HHlEmPvHZfI_MX8nU95xvSJB7XYJvCGq3en2fXSdNMXQScdBA
 ----- END CREV PROOF -----
 
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: 2023-10-08T23:18:51.476937445+01:00
+from:
+  id-type: crev
+  id: vtu-ik_5f4TwY79tshVF4cl6fnEsntE4VkJ5RgJTw3A
+  url: https://github.com/aikooo7/crev-proofs
+package:
+  source: https://crates.io
+  name: slug
+  version: 0.1.4
+  revision: 1436a3b1f9362cb413bcee9ff86ef20840ed0916
+  digest: Q4CWSCF1ik0ZXxI7AWtVj-SFN1gwJPpheP1PRThK_xA
+review:
+  thoroughness: high
+  understanding: high
+  rating: positive
+comment: |-
+  This program takes a borrow of a string slice and returns a slug with String type with help of deunicode crate.
+  
+  Even through the program uses unsafe code, it has reason for it, but be aware of it."
+----- SIGN CREV PROOF -----
+XTIoTD-JkY6zCSxjEJEBYDA8_RPIDKLq0JkY7GJf6db77AUbKvi_zcHYr92GsBRuNlYY8eu_gvtvaf-zwtnlAQ
+----- END CREV PROOF -----
+
